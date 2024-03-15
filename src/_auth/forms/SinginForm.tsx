@@ -1,7 +1,10 @@
-const SingInForm = () => {
+
+const SinginForm = () => {
   return (
-    <div>SingInForm</div>
+    <div>
+       asdas
+    </div>
   )
 }
 
-export default SingInForm
+export default SinginForm
