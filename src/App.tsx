@@ -5,6 +5,7 @@ import SinginForm from './_auth/forms/SinginForm';
 import SingupForm from './_auth/forms/SingupForm';
 import RootLayout from './_root/RootLayout';
 import { Home } from './_root/pages';
+import { Toaster } from "./components/ui/toaster";
 
 export const App = () => {
   return (
@@ -12,14 +13,16 @@ export const App = () => {
       <Routes>
         {/* public routes */}
         <Route element={<AuthLayout/>}>
-          <Route path="/sing-in" element= {<SinginForm />} />
-          <Route path="/sing-up" element= {<SingupForm />} />
+          <Route path="/sign-in" element= {<SinginForm />} />
+          <Route path="/sign-up" element= {<SingupForm />} />
         </Route>
         {/* private routes */}
         <Route element={<RootLayout/>}>
           <Route path="/" element= {<Home />} />
         </Route>
       </Routes>
+
+      <Toaster />
     </main>
   )
 }
