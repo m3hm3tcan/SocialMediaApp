@@ -1,7 +1,7 @@
-const SingInForm = () => {
+const SinginForm = () => {
   return (
     <div>SingInForm</div>
   )
 }
 
-export default SingInForm
+export default SinginForm
