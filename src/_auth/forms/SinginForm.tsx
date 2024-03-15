@@ -1,6 +1,9 @@
+
 const SinginForm = () => {
   return (
-    <div>SingInForm</div>
+    <div>
+       
+    </div>
   )
 }
 
